@@ -1,48 +1,37 @@
-# Academic Project Page Template
-This is an academic paper project page template.
+<div align="center">
+  <h1>On predicting 3D bone locations inside the human body</h1>
 
+  <p style="font-size:1.2em">
+    <a href="https://github.com/adakri"><strong>Abdelmouttaleb Dakri</strong></a> ·
+    <a href="https://theboxtroll.com/vaibhav/"><strong>Vaibhav Arora</strong></a> ·
+    <a href="linkedin.com/in/léo-challier-8a82ba160"><strong>Léo Challier</strong></a> ·
+    <a href="https://marilynkeller.github.io/"><strong>Marilyn Keller</strong></a><br> 
+    <a href="https://ps.is.mpg.de/person/black"><strong>Michael J. Black</strong></a> · 
+    <a href="https://morpheo.inrialpes.fr/people/pujades/"><strong>Sergi Pujades</strong></a> ·
+  </p>
 
-Example project pages built using this template are:
-- https://vision.huji.ac.il/spectral_detuning/
-- https://vision.huji.ac.il/podd/
-- https://dreamix-video-editing.github.io
-- https://vision.huji.ac.il/conffusion/
-- https://vision.huji.ac.il/3d_ads/
-- https://vision.huji.ac.il/ssrl_ad/
-- https://vision.huji.ac.il/deepsim/
+  <p align="center" style="margin: 2em auto;">
+    <a href='https://google.com/' style='padding-left: 0.5rem;'><img src='https://img.shields.io/badge/On%203D%20Bone-8A2BE2' alt='Project Page'></a>
+    <a href='https://arxiv.org/'><img src='https://img.shields.io/badge/arXiv-Paper_PDF-red?style=flat&logo=arXiv&logoColor=green' alt='Paper PDF'></a>
+  </p>
 
+  <p align="center" style="font-size:16px">Official code for MRI-Bones (MICCAI 2024), This project predicts bone locations using external 3D body surface data. Traditional methods rely on 2D data or pseudo-ground truth, lacking precise validation. We enhance the SKEL model into SKEL+ for better bone fitting accuracy using segmented skin and bone data from 3D MRI scans.</p>
+  <p align="center">
+    <img src="media/teaser.png" />
+  </p>
+</div>
 
+# Citation
+```
+@inproceedings{MICCAI:2024,
+  title = {On predicting 3D bone locations inside the human body},
+  author = {Dakri, Abdelmouttaleb and Arora, Vaibhav and Challier, Léo and Keller, Marilyn and and Black, Michael J. and Pujades, Sergi},   
+  booktitle = {26th International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI)},
+  month = oct,
+  year = {2024},
+  month_numeric = {NA}}
+```
 
-## Start using the template
-To start using the template click on `Use this Template`.
+# License
+Apache 2.0
 
-The template uses html for controlling the content and css for controlling the style. 
-To edit the websites contents edit the `index.html` file. It contains different HTML "building blocks", use whichever ones you need and comment out the rest.  
-
-**IMPORTANT!** Make sure to replace the `favicon.ico` under `static/images/` with one of your own, otherwise your favicon is going to be a dreambooth image of me.
-
-## Components
-- Teaser video
-- Images Carousel
-- Youtube embedding
-- Video Carousel
-- PDF Poster
-- Bibtex citation
-
-## Tips:
-- The `index.html` file contains comments instructing you what to replace, you should follow these comments.
-- The `meta` tags in the `index.html` file are used to provide metadata about your paper 
-(e.g. helping search engine index the website, showing a preview image when sharing the website, etc.)
-- The resolution of images and videos can usually be around 1920-2048, there rarely a need for better resolution that take longer to load. 
-- All the images and videos you use should be compressed to allow for fast loading of the website (and thus better indexing by search engines). For images, you can use [TinyPNG](https://tinypng.com), for videos you can need to find the tradeoff between size and quality.
-- When using large video files (larger than 10MB), it's better to use youtube for hosting the video as serving the video from the website can take time.
-- Using a tracker can help you analyze the traffic and see where users came from. [statcounter](https://statcounter.com) is a free, easy to use tracker that takes under 5 minutes to set up. 
-- This project page can also be made into a github pages website.
-- Replace the favicon to one of your choosing (the default one is of the Hebrew University). 
-- Suggestions, improvements and comments are welcome, simply open an issue or contact me. You can find my contact information at [https://pages.cs.huji.ac.il/eliahu-horwitz/](https://pages.cs.huji.ac.il/eliahu-horwitz/)
-
-## Acknowledgments
-Parts of this project page were adopted from the [Nerfies](https://nerfies.github.io/) page.
-
-## Website License
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
