@@ -25,7 +25,7 @@
 
 
   <title>On Page</title>
-  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <link rel="icon" type="image/x-icon" href="static/images/skull.ico">
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
   rel="stylesheet">
 
@@ -59,6 +59,32 @@
           margin: 0 10px; /* Adjust space between images */
       }
   </style>
+    <style>
+      .centered-images2 {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+      .centered-images2 img {
+          max-width: 100%;
+          height: auto;
+          margin: 0 10px; /* Adjust space between images */
+      }
+  </style>
+
+  <title>Embed PDF</title>
+    <style>
+        .centered-pdf {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Adjust as needed */
+        }
+        .pdf-container {
+            width: 80%; /* Adjust as needed */
+            height: 80vh; /* Adjust as needed */
+        }
+    </style>
 
 </head>
 <body>
@@ -224,6 +250,7 @@ models as well as the new inference methods.
 </div>
 </section>
 -->
+<!--
 <section class="hero is-small">
     <div class="hero-body">
         <div class="container centered-images">
@@ -232,7 +259,15 @@ models as well as the new inference methods.
         </div>
     </div>
 </section>
+-->
 
+<section class="hero is-small">
+    <div class="hero-body">
+        <div class="container centered-images2">
+            <img src="static/images/teaser_refined.jpg" alt="MY ALT TEXT 1"/>
+        </div>
+    </div>
+</section>
 
 <!--
 <section class="hero is-small is-light">
@@ -289,7 +324,7 @@ models as well as the new inference methods.
     <div class="container">
       <h2 class="title">Paper</h2>
 
-      <iframe  src="static/pdfs/On_3D_Bone_locations.pdf" width="100%" height="550">
+      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
           </iframe>
         
       </div>
