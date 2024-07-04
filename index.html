@@ -88,7 +88,6 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Signup to Access Download</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -102,7 +101,7 @@
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-        input, button {
+        input {
             display: block;
             width: 30%;
             margin: 10px auto;
@@ -111,10 +110,15 @@
         }
         button {
             color: #fff;
-            background-color: #007bff;
+            background-color: #9e938d;
             border: none;
             border-radius: 5px;
             cursor: pointer;
+            display: block;
+            width: 10%;
+            margin: 10px auto;
+            padding: 10px;
+            font-size: 1em;
         }
         button:hover {
             background-color: #0056b3;
@@ -299,7 +303,7 @@ models as well as the new inference methods.
 <section class="hero is-small">
     <div class="hero-body">
         <div class="container centered-images2">
-            <img src="static/images/teaser_refined.jpg" alt="MY ALT TEXT 1"/>
+            <img src="static/images/teaser_refined_no_teeth.jpg" alt="MY ALT TEXT 1"/>
         </div>
     </div>
 </section>
@@ -375,13 +379,14 @@ models as well as the new inference methods.
         <!-- Signup Form -->
         <form action="https://formsubmit.co/vaibhav.arora@inria.fr" method="POST">
             <input type="hidden" name="_redirect" value="https://theboxtroll.com/on-3d-bone-locations/thankyou.html">
+            <input type="hidden" name="_captcha" value="false">
             <label for="name"><b>Name</b>:</label>
             <input type="text" id="name" name="name" required>
             <label for="affiliation"><b>Affiliation:</b></label>
             <input type="text" id="affiliation" name="affiliation" required>
             <label for="email"><b>Email:</b></label>
             <input type="email" id="email" name="email" required>
-            <button type="submit">Submit</button>
+            <button type="submit">Send</button>
         </form>
       </div>
 </section>
