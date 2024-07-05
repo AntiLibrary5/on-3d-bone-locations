@@ -4,38 +4,38 @@
   <meta charset="utf-8">
   <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
   <!-- Replace the content tag with appropriate information -->
-  <meta name="description" content="DESCRIPTION META TAG">
-  <meta property="og:title" content="On predicting 3D bone locations inside the human body"/>
-  <meta property="og:description" content="On predicting 3D bone locations inside the human body"/>
-  <meta property="og:url" content="https://theboxtroll.com/on-3d-bone-locations/"/>
+  <meta content="DESCRIPTION META TAG" name="description">
+  <meta content="On predicting 3D bone locations inside the human body" property="og:title"/>
+  <meta content="On predicting 3D bone locations inside the human body" property="og:description"/>
+  <meta content="https://theboxtroll.com/on-3d-bone-locations/" property="og:url"/>
   <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
-  <meta property="og:image" content="static/images/teaser.png" />
-  <meta property="og:image:width" content="1200"/>
-  <meta property="og:image:height" content="630"/>
+  <meta content="static/images/teaser.png" property="og:image" />
+  <meta content="1200" property="og:image:width"/>
+  <meta content="630" property="og:image:height"/>
 
 
-  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
-  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <meta content="TWITTER BANNER TITLE META TAG" name="twitter:title">
+  <meta content="TWITTER BANNER DESCRIPTION META TAG" name="twitter:description">
   <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
-  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
-  <meta name="twitter:card" content="summary_large_image">
+  <meta content="static/images/your_twitter_banner_image.png" name="twitter:image">
+  <meta content="summary_large_image" name="twitter:card">
   <!-- Keywords for your paper to be indexed by-->
-  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta content="KEYWORDS SHOULD BE PLACED HERE" name="keywords">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
 
 
   <title>On Page</title>
-  <link rel="icon" type="image/x-icon" href="static/images/skull.ico">
+  <link href="static/images/skull.ico" rel="icon" type="image/x-icon">
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
   rel="stylesheet">
 
-  <link rel="stylesheet" href="static/css/bulma.min.css">
-  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
-  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
-  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
-  <link rel="stylesheet"
-  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
-  <link rel="stylesheet" href="static/css/index.css">
+  <link href="static/css/bulma.min.css" rel="stylesheet">
+  <link href="static/css/bulma-carousel.min.css" rel="stylesheet">
+  <link href="static/css/bulma-slider.min.css" rel="stylesheet">
+  <link href="static/css/fontawesome.all.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"
+  rel="stylesheet">
+  <link href="static/css/index.css" rel="stylesheet">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
@@ -45,7 +45,7 @@
   <script src="static/js/index.js"></script>
 
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <title>Centered Image</title>
   <style>
       .centered-images {
@@ -66,7 +66,7 @@
           align-items: center;
       }
       .centered-images2 img {
-          max-width: 90%;
+          max-width: 70%;
           height: auto;
           margin: 0 10px; /* Adjust space between images */
       }
@@ -87,7 +87,7 @@
     </style>
 
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -124,6 +124,17 @@
             background-color: #0056b3;
         }
     </style>
+
+    <title>BibTeX Entry</title>
+    <style>
+        .bibtex-container {
+            text-align: left;
+        }
+        .bibtex-code {
+            display: inline-block;
+            text-align: left; /* Ensure the code itself remains left-aligned */
+        }
+    </style>
 </head>
 
 <body>
@@ -157,13 +168,12 @@ human body</h1>
                     <span class="author-block"><sub>1</sub>Universite Grenoble Alpes, Inria, CNRS, Grenoble INP, LJK, France<br><sub>2</sub>Max Planck Institute for Intelligent Systems, Tubingen, Germany<br>MICCAI 2024</span>
                     <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
                   </div>
-
+                  <!--
                   <div class="column has-text-centered">
                     <div class="publication-links">
-                         <!-- Arxiv PDF link -->
                       <span class="link-block">
-                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
-                        class="external-link button is-normal is-rounded is-dark">
+                        <a class="external-link button is-normal is-rounded is-dark" href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf"
+                        target="_blank">
                         <span class="icon">
                           <i class="fas fa-file-pdf"></i>
                         </span>
@@ -171,21 +181,30 @@ human body</h1>
                       </a>
                     </span>
 
-                    <!-- Supplementary PDF link -->
                     <span class="link-block">
-                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
-                      class="external-link button is-normal is-rounded is-dark">
+                      <a class="external-link button is-normal is-rounded is-dark" href="static/pdfs/supplementary_material.pdf"
+                      target="_blank">
                       <span class="icon">
                         <i class="fas fa-file-pdf"></i>
                       </span>
                       <span>Supplementary</span>
                     </a>
                   </span>
+                  -->
+                  <span class="link-block">
+                    <a class="external-link button is-normal is-rounded is-dark" href="https://hal.archives-ouvertes.fr/<HAL PAPER ID>"
+                       target="_blank">
+                      <span class="icon">
+                        <i class="ai ai-hal"></i> <!-- Ensure you have the correct class for the HAL icon -->
+                      </span>
+                      <span>HAL</span>
+                    </a>
+                  </span>
 
                   <!-- Github link -->
                   <span class="link-block">
-                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
-                    class="external-link button is-normal is-rounded is-dark">
+                    <a class="external-link button is-normal is-rounded is-dark" href="https://github.com/YOUR REPO HERE"
+                    target="_blank">
                     <span class="icon">
                       <i class="fab fa-github"></i>
                     </span>
@@ -194,15 +213,7 @@ human body</h1>
                 </span>
 
                 <!-- ArXiv abstract Link -->
-                <span class="link-block">
-                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
-                  class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                    <i class="ai ai-arxiv"></i>
-                  </span>
-                  <span>arXiv</span>
-                </a>
-              </span>
+
             </div>
           </div>
         </div>
@@ -226,6 +237,14 @@ human body</h1>
   </div>
 </section>
 -->
+<section class="hero is-small">
+    <div class="hero-body">
+        <div class="container centered-images2">
+            <img alt="MY ALT TEXT 1" src="static/images/teaser_refined_no_teeth.jpg"/>
+        </div>
+    </div>
+</section>
+
 
 <!-- Paper abstract -->
 <section class="section hero is-light">
@@ -300,13 +319,6 @@ models as well as the new inference methods.
 </section>
 -->
 
-<section class="hero is-small">
-    <div class="hero-body">
-        <div class="container centered-images2">
-            <img src="static/images/teaser_refined_no_teeth.jpg" alt="MY ALT TEXT 1"/>
-        </div>
-    </div>
-</section>
 
 <!--
 <section class="hero is-small is-light">
@@ -378,14 +390,14 @@ models as well as the new inference methods.
         <p>Please enter your details to get access to the download link.</p>
         <!-- Signup Form -->
         <form action="https://formsubmit.co/vaibhav.arora@inria.fr" method="POST">
-            <input type="hidden" name="_next" value="https://theboxtroll.com/on-3d-bone-locations/thankyou.html">
-            <input type="hidden" name="_captcha" value="false">
+            <input name="_next" type="hidden" value="https://theboxtroll.com/on-3d-bone-locations/thankyou.html">
+            <input name="_captcha" type="hidden" value="false">
             <label for="name"><b>Name</b>:</label>
-            <input type="text" id="name" name="name" required>
+            <input id="name" name="name" required type="text">
             <label for="affiliation"><b>Affiliation:</b></label>
-            <input type="text" id="affiliation" name="affiliation" required>
+            <input id="affiliation" name="affiliation" required type="text">
             <label for="email"><b>Email:</b></label>
-            <input type="email" id="email" name="email" required>
+            <input id="email" name="email" required type="email">
             <button type="submit">Send</button>
         </form>
       </div>
@@ -393,20 +405,22 @@ models as well as the new inference methods.
 
 
 <!--BibTex citation -->
-  <section class="section" id="BibTeX">
-    <div class="container is-max-desktop content">
-      <h2 class="title">BibTeX</h2>
-      <pre><code>
+    <section class="section" id="BibTeX">
+        <div class="container is-max-desktop content">
+            <h2 class="title">BibTeX</h2>
+            <div class="bibtex-container">
+                <pre class="bibtex-code"><code>
 @inproceedings{MICCAI:2024,
-  title = {On predicting 3D bone locations inside the human body},
-  author = {Dakri, Abdelmouttaleb and Arora, Vaibhav and Challier, Léo and Keller, Marilyn and and Black, Michael J. and Pujades, Sergi},
-  booktitle = {26th International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI)},
-  month = oct,
-  year = {2024},
-  month_numeric = {NA}}
-</code></pre>
-    </div>
-</section>
+title = {On predicting 3D bone locations inside the human body},
+author = {Dakri, Abdelmouttaleb and Arora, Vaibhav and Challier, Léo and Keller, Marilyn and and Black, Michael J. and Pujades, Sergi},
+booktitle = {26th International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI)},
+month = oct,
+year = {2024},
+month_numeric = {NA}}
+                </code></pre>
+            </div>
+        </div>
+    </section>
 <!--End BibTex citation -->
 
 
